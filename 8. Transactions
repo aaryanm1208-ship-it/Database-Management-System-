@@ -1,0 +1,12 @@
+ACID Properties:
+
+Atomicity: All or nothing
+Consistency: Database remains valid
+Isolation: Transactions don’t interfere
+Durability: Committed changes persist
+
+Example:
+START TRANSACTION;
+UPDATE Account SET Balance=Balance-500 WHERE AccID=1;
+UPDATE Account SET Balance=Balance+500 WHERE AccID=2;
+COMMIT;
