@@ -1,0 +1,7 @@
+Purpose: Virtual table from query result.
+
+Example:
+
+CREATE VIEW EmployeeSalary AS
+SELECT Name, Salary FROM Employee WHERE Salary > 30000;
+SELECT * FROM EmployeeSalary;
