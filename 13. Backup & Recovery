@@ -1,0 +1,3 @@
+Backup: Regular export of DB data
+Recovery: Restore DB to previous state
+Types: Full backup, incremental, differential
