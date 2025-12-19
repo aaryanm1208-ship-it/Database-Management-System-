@@ -1,0 +1,8 @@
+1. Relational Model: Data in tables (rows & columns).
+2. Entity-Relationship (ER) Model: Graphical representation of entities and relationships.
+3. NoSQL Models: Key-value, document, columnar, and graph databases (MongoDB, Cassandra).
+
+Example ER Diagram Concepts:
+Entity: Student, Employee
+Attribute: Name, RollNo, Salary
+Relationship: “Enrolled in”, “Works in”
