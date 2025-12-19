@@ -1,2 +1,2 @@
 # Database-Management-System-
-All DBMS concepts i studied explained in briefly 
+All DBMS concepts I studied explained in brief
