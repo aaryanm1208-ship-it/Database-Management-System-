@@ -1,0 +1,12 @@
+Purpose: Reduce redundancy and improve data integrity.
+
+Normal Forms:
+1NF: No repeating groups; atomic values.
+2NF: 1NF + no partial dependency.
+3NF: 2NF + no transitive dependency.
+BCNF: Stronger version of 3NF.
+
+Example:
+Unnormalized: StudentID, StudentName, Subject1, Subject2
+1NF: Split subjects into separate rows
+2NF & 3NF: Split into separate tables for Students and Subjects
