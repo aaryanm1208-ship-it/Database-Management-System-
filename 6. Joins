@@ -1,0 +1,6 @@
+Purpose: Combine data from multiple tables.
+
+INNER JOIN: Returns matching rows from both tables.
+LEFT JOIN: Returns all rows from left table + matched rows from right table.
+RIGHT JOIN: Returns all rows from right table + matched rows from left table.
+FULL OUTER JOIN: All rows from both tables, NULL if no match.
