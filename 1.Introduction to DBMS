@@ -1,0 +1,14 @@
+Definition: DBMS (Database Management System) is software that stores, manages, and retrieves data efficiently.
+
+Types of DBMS:
+Hierarchical DBMS – Data stored in a tree structure.
+Network DBMS – Data stored as nodes and links (graph-like).
+Relational DBMS (RDBMS) – Data stored in tables with relationships (most popular).
+Object-oriented DBMS – Stores data as objects.
+
+Advantages of DBMS:
+Reduced data redundancy
+Improved data consistency
+Better security and access control
+Multi-user access
+Backup and recovery
