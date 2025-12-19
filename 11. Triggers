@@ -1,0 +1,8 @@
+Purpose: Automatic action on table events.
+
+Example:
+
+CREATE TRIGGER before_insert_employee
+BEFORE INSERT ON Employee
+FOR EACH ROW
+SET NEW.Salary = IF(NEW.Salary < 10000, 10000, NEW.Salary);
