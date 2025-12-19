@@ -1,0 +1,5 @@
+Primary Key: Unique identifier for a record.
+Foreign Key: Refers to primary key in another table (enforces relationships).
+Candidate Key: All possible unique keys.
+Composite Key: Primary key made from multiple attributes.
+Super Key: Any set of attributes that uniquely identifies a record.
