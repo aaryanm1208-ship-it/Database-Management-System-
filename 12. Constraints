@@ -1,0 +1,5 @@
+NOT NULL: Column cannot be null
+UNIQUE: Values must be unique
+PRIMARY KEY: Unique identifier
+FOREIGN KEY: Reference to another table
+CHECK: Condition to validate data
