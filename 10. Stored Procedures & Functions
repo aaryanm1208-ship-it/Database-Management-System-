@@ -1,0 +1,9 @@
+Purpose: Predefined SQL code stored in DB.
+Example Procedure:
+
+DELIMITER //
+CREATE PROCEDURE IncreaseSalary(IN empID INT, IN increment DECIMAL(10,2))
+BEGIN
+    UPDATE Employee SET Salary = Salary + increment WHERE EmpID = empID;
+END //
+DELIMITER ;
