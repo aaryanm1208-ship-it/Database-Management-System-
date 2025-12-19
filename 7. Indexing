@@ -1,0 +1,5 @@
+Purpose: Speed up queries.
+Types: Single-column index, composite index, unique index.
+
+Example:
+CREATE INDEX idx_name ON Employee(Name);
